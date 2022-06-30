@@ -7,7 +7,7 @@ void factorial(int n,int fact){
     return;
   }
   fact*=n;
-  factorial(n-1;fact);
+  factorial(n-1,fact);
   
 }
 
