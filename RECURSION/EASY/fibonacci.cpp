@@ -1,12 +1,12 @@
 #include<iostream>
 using namespace std;
 
-void fibonacci(int secound,int first,int number){
+void fibonacci(long long secound,long long first,int number){
   if(number == 0){
     return;
   }  
-  int newDigit = secound+first;
-  cout<<newDigit;
+  long long newDigit = secound+first;
+  cout<<newDigit<<" ";
   fibonacci(first,newDigit,number-1);
   
   
@@ -15,9 +15,10 @@ void fibonacci(int secound,int first,int number){
 int main(){
   int number;
   cin>>number;
-  
+  cout<<"0 1 ";
   fibonacci(0,1,number);
  
   return 0;
   
 }
+
