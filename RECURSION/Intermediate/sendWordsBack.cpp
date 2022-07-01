@@ -7,6 +7,7 @@ void sendback(string str,int index,int count,string newstr,char back){
             newstr+=back;
         }
         cout<<newstr;
+        return;
     }
     if(str.at(index) == back){
         count++;
