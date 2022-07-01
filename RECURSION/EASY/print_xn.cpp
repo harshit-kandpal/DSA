@@ -17,13 +17,19 @@ int xnlog(int x,int n){
   if(n==0){
       return 1;
     }
-  else if(n==1){
-      return x;
-  }  
+  if(x==0){
+      return 0;
+  }
   
   if(n%2 == 0){
-    int sum=(
+    return xnlog(x,n/2)*xnlog(x,n/2);
+  }
+  else{
+    return xnlog(x,n/2)*xnlog(x,n/2)*x;   
+  }
 }
+
+
 int main(){
   int x,n;
   cin>>x>>n;
