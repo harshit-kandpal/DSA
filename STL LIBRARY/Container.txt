@@ -1,0 +1,38 @@
+1: Arrays: 
+          #include<arrays>
+          array<int,size> arrray_name;
+          
+          for example:
+                                array<int,5> a = {1,2,3,4,5};
+          
+          functions for arrays:
+                                a.at(index)  or a[index]:- it gives the element present at index.
+                                a.empty()               :- will return true or false as binary values 1 or 0.
+                                a.front()    or a.back():- will return element present at 1 and at the end.
+                                
+2: Vectors:
+          #include<vectors>
+          vetcor<int> vec_name;
+          
+          for example:
+                                vector<int> v;         -->    initialize empty vector
+                                vector<int> v(5,1);    -->    initialize vector with 5 elements of value 1 each
+                                vector<int> copy(v);   -->    it copies the values of vector v in vector copy.
+                                
+          concept of iterator
+                                
+          
+          functions for arrays:
+                                v.capacity()            --> it gives the total size or elements a vector can hold in 2 power of n.
+                                v.size()                --> it gives the total elements pres
+                                v.push_back()           --> it push the elements in the vector
+                                v.pop_back()            --> it pop the elements from the vector
+                                v.at(index)             --> it gives the element present at index.
+                                v.empty()               --> will return true or false as binary values 1 or 0.
+                                v.front()    or v.back()--> will return element present at 1 and at the end.
+3:deqeue
+4:stack
+5:queue
+6:Priority queue
+7:sets
+8:maps
